@@ -4,9 +4,9 @@
 
 :root {
     --azulpetroleo:rgb(14, 4, 118);
-    --azulclaro:rgb(173, 166, 246);
-    --azulheader:rgb(115, 104, 233);
-    --azulheader2:rgb(95, 82, 234);
+    --azulclaro:rgb(179, 173, 250);
+    --azulheader:rgb(156, 148, 246);
+    --azulheader2:rgb(143, 134, 242);
     --branco:white;
     --preto:black;
 
@@ -30,20 +30,25 @@ body {
 
 header > h1 {
     font-family: var(--titulos);
-    text-align: center;
+    text-align: left;
 }
 
 header {
-    background: linear-gradient(to top, var(--azulheader2), var(--azulheader)); 
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
     color: #fff;
-    text-align: center;
+    text-align: left;
     padding: 20px 0;
 }
 
 nav {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
     background: var(--azulheader2); 
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 nav ul {
@@ -76,7 +81,7 @@ main {
     background-color: var(--branco);
     text-align: justify;
 
-    max-width: 800px;
+    max-width: 900px;
     min-width: 300px;
     margin:auto
 }
