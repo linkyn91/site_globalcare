@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+:root {
+    --azulpetroleo:rgb(14, 4, 118);
+    --azulclaro:rgb(173, 166, 246);
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --titulos: Arial black;
+    --textos: Arial;
+
+}
+
+body {
+    background-color: var(--azulclaro);
+}
+
+header > h1 {
+    color: var(--azulpetroleo);
+    font-family: var(--titulos);
+}
+
+main h1 {
+    color: var(--azulpetroleo);
+    font-family: var(--titulos);
+}
