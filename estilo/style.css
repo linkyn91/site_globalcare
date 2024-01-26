@@ -1,9 +1,12 @@
 @charset "UTF-8";
 
+html, body {
+    min-height: 100vh;
 
+}
 
 :root {
-    --azulpetroleo:rgb(14, 4, 118);
+    --azulpetroleo:rgb(161, 155, 232);
     --azulclaro:rgb(179, 173, 250);
     --azulheader:rgb(156, 148, 246);
     --azulheader2:rgb(143, 134, 242);
@@ -31,22 +34,25 @@ body {
 header > h1 {
     font-family: var(--titulos);
     text-align: left;
+    font-variant: small-caps;
+    font-size: 8vw;
 }
 
 header {
-    max-width: 900px;
-    min-width: 300px;
+    background-image: url(https://img.freepik.com/fotos-premium/fundo-de-ceu-ensolarado-com-nuvens_87394-14922.jpg?w=1380);
+    background-size: cover;
+    background-position: top;
     margin: auto;
     color: #fff;
     text-align: left;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 nav {
-    max-width: 900px;
-    min-width: 300px;
+    background-image: url(https://img.freepik.com/fotos-premium/fundo-de-ceu-ensolarado-com-nuvens_87394-14922.jpg?w=1380);
+    background-size: cover;
+    background-position: center;
     margin: auto;
-    background: var(--azulheader2); 
     display: flex;
     justify-content: right;
 }
@@ -75,14 +81,51 @@ nav a:hover {
     color: var(--azulpetroleo); /* Mudar a cor ao passar o mouse conforme desejado */
 }
 
-main {
+section.normal {
+    background-color: #f0f0f0;
+    color: black;    
+    box-shadow: inset 6px 6px 13px 0px rgba(93, 92, 92, 0.561);
+}
+
+section.imagem {
+    background-color: rgb(112, 110, 110);
+    color: #000000;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(93, 92, 92, 0.561);
+        }
+
+      
+section.imagem > p {
+    background-color: rgba(255, 255, 255, 0.411);
     padding: 20px;
-    border-radius: 10px;
-    background-color: var(--branco);
+
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    padding-right: 50vw;
+    line-height: 4vw;
+}
+
+section#img01 {
+   background-image: url(https://img.freepik.com/fotos-gratis/casal-de-tiro-medio-posando-juntos_23-2148984296.jpg?w=900&t=st=1706282768~exp=1706283368~hmac=e1267df8b7fb5cf13b02b3075731bfcb92c13b4948ad8aa1bc01550caf39047f);
+   background-position: right top;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(https://img.freepik.com/fotos-gratis/avos-felizes-usando-seu-laptop-digital_329181-14741.jpg?w=900&t=st=1706282798~exp=1706283398~hmac=5baa948e0ce7e43f892550c2a6d2563c6da52faab257d226e9a26b3b3abf6c10);
+    background-position: right top;
+    background-size: cover;
+}
+
+main {
+   
     text-align: justify;
 
-    max-width: 900px;
-    min-width: 300px;
+
     margin:auto
 }
 
@@ -95,4 +138,5 @@ footer {
     text-align: center;
     background-color: var(--preto);
     color: var(--branco);
+    padding: 15px;
 }
