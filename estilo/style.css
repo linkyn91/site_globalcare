@@ -9,7 +9,7 @@ html, body {
     --azulpetroleo:rgb(161, 155, 232);
     --azulclaro:rgb(179, 173, 250);
     --azulheader:rgb(156, 148, 246);
-    --azulheader2:rgb(143, 134, 242);
+    --azulheader2:rgb(205, 205, 205);
     --branco:white;
     --preto:black;
 
@@ -85,6 +85,7 @@ section.normal {
     background-color: #f0f0f0;
     color: black;    
     box-shadow: inset 6px 6px 13px 0px rgba(93, 92, 92, 0.561);
+   
 }
 
 section.imagem {
@@ -96,7 +97,13 @@ section.imagem {
 
       
 section.imagem > p {
-    background-color: rgba(255, 255, 255, 0.411);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+
+}
+
+section.imagem > ul {
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
 
 }
@@ -121,6 +128,23 @@ section#img02 {
     background-size: cover;
 }
 
+section#img03 {
+    background-image: url(https://veja.abril.com.br/wp-content/uploads/2016/12/idosos-felizes.jpg?quality=70&strip=all);
+    background-position: right top;
+     background-size: cover;
+ }
+
+ section#img04 {
+    background-image: url(https://blog.burh.com.br/wp-content/uploads/2018/11/249394-por-que-o-treinamento-nas-empresas-e-tao-fundamental-1110x508.jpg);
+    background-position: right top;
+     background-size: cover;
+    }
+
+section#img05 {
+    background-image: url(https://img.freepik.com/fotos-premium/mao-do-homem-de-negocios-que-guarda-o-telefone-esperto-com-telefone-celular-correio-telefone-e-endereco-do-icone-centro-de-atendimento-ao-cliente-entre-em-contato-conosco-conceito_20693-208.jpg?w=1060);
+    background-position: right top;
+        background-size: cover;
+    }
 main {
    
     text-align: justify;
