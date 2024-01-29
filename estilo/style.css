@@ -6,9 +6,9 @@ html, body {
 }
 
 :root {
-    --azulpetroleo:rgb(161, 155, 232);
-    --azulclaro:rgb(179, 173, 250);
-    --azulheader:rgb(156, 148, 246);
+    --azulpetroleo:rgb(18, 9, 119);
+    --azulclaro:rgb(18, 9, 119);
+    --azulheader:rgb(18, 9, 119);
     --azulheader2:rgb(205, 205, 205);
     --branco:white;
     --preto:black;
@@ -105,8 +105,17 @@ section.imagem > p {
 section.imagem > ul {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
+    
 
 }
+
+section.imagem > h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    color: rgb(45, 12, 112);
+
+}
+
 
 section {
     padding-top: 10vh;
@@ -145,6 +154,20 @@ section#img05 {
     background-position: right top;
         background-size: cover;
     }
+section#img06 {
+    background-image: url(https://papinhasdaxica.pt/wp-content/uploads/2022/01/como-deve-alimentacao-da-crianc%CC%A7a-doente-scaled.jpg);
+    background-position: right top;
+        background-size: cover;
+    }
+
+section#img07 {
+    background-image: url( https://www.consultoriarr.com.br/wp-content/uploads/2021/08/img-documentacao-para-abrir-uma-empresa-entenda-o-que-e-solicitado.jpg);
+    background-position: right top;
+        background-size: cover;
+    }
+   
+
+
 main {
    
     text-align: justify;
