@@ -192,3 +192,12 @@ footer {
     color: var(--branco);
     padding: 15px;
 }
+
+hr {
+    margin: auto;
+    color: white;
+    border-style: none;
+    border-top-style: dotted;
+    border-width:10px;
+    width: 50%;
+}
