@@ -63,6 +63,7 @@ nav ul {
     padding: 0;
 }
 
+
 nav li {
     display: inline-block;
     margin: 0 15px;
@@ -115,6 +116,10 @@ section.imagem > h1 {
     color: rgb(45, 12, 112);
 
 }
+
+section.imagem > form {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;}
 
 
 section {
